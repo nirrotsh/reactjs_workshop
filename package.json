@@ -1,0 +1,10 @@
+{
+  "name": "situator_web",
+  "version": "1.0.0",
+  "description": "Reat.js Workshop project - creating a situation manager web client",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nir Rotshtein",
+  "license": "ISC"
+}
