@@ -207,8 +207,8 @@ Make sure no errors are thrown
 Open your web browser: http://localhost:3000/  - you should see a blank page with the set title and no console errors.
 
 <hr/>
-**Congratulations,** <br/>
-**you have a fully working development environment and are ready to start your first React module**
+<em>Congratulations,</em><br/>
+<em>you have a fully working development environment and are ready to start your first React module</em>
 <hr/>
 
 
