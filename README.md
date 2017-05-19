@@ -29,10 +29,11 @@ Go to [Exercise 1][Excercise1_1]
 ### Exercise 2: Hello World
 By Low and Custom, our first foray into a new framework / language must be an **Hello World** application.
 We will create our first react component that will do exactly this and provide the root of our future application.
+
 Go to [Exercise 2][Excercise1_2]
 
 
 
 
-   [Excercise1_1]: <https://github.com/https://github.com/nirrotsh/reactjs_workshop/day1/ex1>
-   [Excercise1_2]: <https://github.com/https://github.com/nirrotsh/reactjs_workshop/Day1/ex2>
+   [Excercise1_1]: <https://github.com/nirrotsh/reactjs_workshop/tree/master/day01/ex1>
+   [Excercise1_2]: <https://github.com/nirrotsh/reactjs_workshop/tree/master/day01/ex2>
