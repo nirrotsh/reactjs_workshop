@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./ts-build/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "es6",
+        "allowSyntheticDefaultImports": true,
+        "jsx": "preserve",
+        "baseUrl": "./src",
+        "strict": true
+    },
+    "exclude": [
+    "node_modules"
+  ]
+}
