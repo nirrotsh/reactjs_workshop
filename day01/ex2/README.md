@@ -17,7 +17,7 @@ npm install --save react @types/react react-dom @types/react-dom
 ```
 Open your `packages.json` and make sure they appear the "dependencies" section
 
-### Step2: Creating the Greater component
+### Step2: Creating the Greeter component
 under the "src" folder create a "components" folder - this will contain all of our components.
 Under it create a new component file: `greeter.tsx`
 
@@ -25,32 +25,31 @@ The folder tree will look like this:
 <div>|-src </div>
 <div>&nbsp; &nbsp;|-index.tsx</div>
 <div>&nbsp; &nbsp;|-components</div>
-<div>&nbsp; &nbsp;&nbsp; &nbsp;|-greater.tsx</div>
+<div>&nbsp; &nbsp;&nbsp; &nbsp;|-greeter.tsx</div>
 
-in the greater.tsx file
+in the greeter.tsx file
 - import react
 - create a react component that emits Hello World
     - make sure the component is exported - as we will use it in the index.tsx file
 
 ```
-//greater.tsx
+//greeter.tsx
 import React from 'react'
 
-export const greater = () => (<h3>Hello World</h3>); 
+export const Greeter = () => (<h3>Hello World</h3>); 
 ```
 
 ### Step3: Rendering our component
 open the index.tsx file (which should be empty.
-- import react and reactDom
-- import our greater component
+- import reactDom
+- import our greeter component
 - use reactDOM to render our component into the div with ID=app in our application
 ```
 //index.tsx
 import ReactDOM from 'react-dom'
-import React from 'react'
-import {Greater} from './components/greater'
+import {Greeter} from './components/greeter'
 
-ReactDOM.render(<Greater />, document.getElementById('app'));
+ReactDOM.render(<Greeter />, document.getElementById('app'));
 ```
 
 
