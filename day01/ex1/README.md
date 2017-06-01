@@ -1,7 +1,7 @@
 # React.js Workshop
 
 This is the code and practical companion to my React.js + Typescript workshop.
-Since this is based on a rolling excersize (creating a web-based incident management), each excersize will be stored in its own Git Branch.
+Since this is based on a rolling exercise (creating a web-based incident management), each exercise will be stored in its own Git Branch.
 
 #### Assumptions:
 
@@ -10,10 +10,9 @@ Since this is based on a rolling excersize (creating a web-based incident manage
  - Typescript 2.3 or above
  - Webpack 2 and above
 
-## Day 1, Excersize 1: Hello World
+## Day 1, Exercise  1: Hello World
 
-By Low and Custome, our first foray into a new framework / language must be an **Hello World** application.
-In this excersize we create such an application, but with a fully working development enviroment - that will serve us for the rest of the workshop.
+In this exercise, we lay down the foundation to the rest of the workshop by setting up a fully working development environment - that we will expand and build upon in the rest of the workshop.
 
 ### Step1: Install Node.js
 We will use [NVM Windows] to install node.js - because it allows us to control the version of Node.js
@@ -92,7 +91,7 @@ C:\projects\situator_web> npm init
   ]
 }
 ```
-The above options swt ts compiler to
+The above options tells TypeScript compiler to
 * Set the output directory to “ts-build”. Will be ignored by webpack as compiling is done in memory pipeline.
 * Generate source maps – to help debugging
 * Do not allow implicit “any” types. TS will not try to convert an untyped members to Any and will generated compiler error. Best if we starting new project from scratch.
@@ -168,9 +167,9 @@ Create an `index.html` file in the root directory of your project. Set its conte
 </html>
 ```
 Note couple of things:
-* The div with the “app”  ID will be where React will inject its content. The ID name is arbitrary, and you can have multiple entry elements – but we build our entire application as React component. The HTML will not really change much on later steps – as most of the work will be done in React components that will be injected to the root “app” div.
+* The div with the “app” ID will be where React will inject its content. The ID name is arbitrary, and you can have multiple entry elements – but we build our entire application as React component. The HTML will not change much on later steps – as most of the work will be done in React components that will be injected to the root “app” div.
 * The app.js file is the bundle webpack is generating. It is located at the root of the “dist” folder
-* Where are the react javascripts? – webpack will handle their dependency – they will be packed as part of the bundle, making your application independent of react versions.
+* Where are the react JavaScripts? – webpack will handle their dependency – they will be packed as part of the bundle, making your application independent of react versions.
 
 ### Step 6: Creating an empty React root component file
 Create an empty file called `index.tsx` under the src folder.

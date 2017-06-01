@@ -1,13 +1,13 @@
 # React.js Workshop
 
 
-## Day 1, Excersize 2: First React Component
-By Low and Custome, our first foray into a new framework / language must be an **Hello World** application.
-In this excersize we create such an application, but with a fully working development enviroment - that will serve us for the rest of the workshop.
+## Day 1, Exercise 2: First React Component
+By Low and Custom, our first foray into a new framework / language must be an **Hello World** application.
+In this exercise we create such an application, but with a fully working development environment - that will serve us for the rest of the workshop.
 
 #### Assumptions:
- - Fully working enviromrnt from the end of [exercise 1][RWS_EX1]
- - If you downloded it from GIT: Install the global tools described in [exercise 1][RWS_EX1] and do `npm install` to install all the packages 
+ - Fully working environment from the end of [exercise 1][RWS_EX1]
+ - If you downloaded it from GIT: Install the global tools described in [exercise 1][RWS_EX1] and do `npm install` to install all the packages 
 
 ### Step1: Installing React dependencies
 First we need to install React and ReactDom and their type definitions
@@ -18,7 +18,7 @@ npm install --save react @types/react react-dom @types/react-dom
 Open your `packages.json` and make sure they appear the "dependencies" section
 
 ### Step2: Creating the Greeter component
-under the "src" folder create a "components" folder - this will contain all of our components.
+under the "src" folder create a "components" folder - this will contain all our components.
 Under it create a new component file: `greeter.tsx`
 
 The folder tree will look like this:
