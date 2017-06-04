@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Layout Tests</title>
+    </head>
+    <body>
+        <div id='app'>
+            <div class="header" >Header</div>
+            <div class="content">
+                <div style="height:640px; width:720px;background:#cc9999;">Content</div>
+            </div>
+            <div class="footer">Footer</div>
+        </div>
+        <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+            #app {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            .header {
+                background: silver;
+                height:4em;
+            }
+            .footer{
+                background: silver;
+                height:2em;
+            }
+            .content {
+                flex: 1;
+                overflow: auto;
+                background: #fff;
+            }
+        </style>
+    </body>
+</html>
