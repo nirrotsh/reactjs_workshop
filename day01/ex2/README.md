@@ -41,12 +41,13 @@ export const Greeter = () => (<h3>Hello World</h3>);
 
 ### Step3: Rendering our component
 open the index.tsx file (which should be empty.
-- import reactDom
+- import react and reactDom
 - import our greeter component
 - use reactDOM to render our component into the div with ID=app in our application
 ```
 //index.tsx
 import ReactDOM from 'react-dom'
+import React from 'react'
 import {Greeter} from './components/greeter'
 
 ReactDOM.render(<Greeter />, document.getElementById('app'));
