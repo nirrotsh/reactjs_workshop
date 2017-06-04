@@ -32,8 +32,12 @@ We will create our first react component that will do exactly this and provide t
 
 Go to [Exercise 2][Excercise1_2]
 
+### Exercise 3: The App Shell
+Creating the main layout of the application (application wrapper, header, scrollable content and footer).
+We will demonstrate React component composition, props and styling
 
-
+Go to [Exercise 3][Excercise1_3]
 
    [Excercise1_1]: <https://github.com/nirrotsh/reactjs_workshop/tree/master/day01/ex1>
    [Excercise1_2]: <https://github.com/nirrotsh/reactjs_workshop/tree/master/day01/ex2>
+   [Excercise1_3]: <https://github.com/nirrotsh/reactjs_workshop/tree/master/day01/ex3>

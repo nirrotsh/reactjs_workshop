@@ -29,8 +29,8 @@ Must be scrollable, as the content might overspill window size
 
 The HTML code is also available in the [Layout.html][RWS_EX3_DEMO] in this folder.
 
-You can see a static web page demonstrating how the application should look here 
-<a class="jsbin-embed" href="http://jsbin.com/qadewe/2/embed"> on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?4.0.2"></script>
+You can see a static web page demonstrating how the application should look [here][RWS_EX3_JSBIN] 
+
 
 
 ### Design
@@ -66,7 +66,7 @@ To do this we want to accept a “theme” prop in each of those components (hea
 3. You will need to set style properties on the <body> and <div id=‘app’> manually, using internal or external stylesheet – since they are not part of REACT.
 There is an escape hatch that you can use (the REF callback function ) to access the DOM element directly – but it breaks component encapsulation
 
-###Implementation Steps
+### Implementation Steps
 1. Remove the Greeter.tsx file, we will not need it anymore
 2. Create a new folder `layout` under the `components` folder. This is where we will store our layout components
 3. Under the `layout` folder create 3 files, `header.tsx`, `content.txt` and `footer.tsx` to contain the header,content and footer components
@@ -77,4 +77,5 @@ There is an escape hatch that you can use (the REF callback function ) to access
 
    [RWS_EX2]: <https://github.com/nirrotsh/reactjs_workshop/tree/master/day01/ex2>
    [RWS_EX3_DEMO]: <https://github.com/nirrotsh/reactjs_workshop/tree/master/day01/ex3/layout.html>
+   [RWS_EX3_JSBIN]: <http://jsbin.com/qadewe/2>
    
