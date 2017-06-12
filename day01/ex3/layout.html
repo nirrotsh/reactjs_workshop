@@ -2,33 +2,83 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Layout Tests</title>
+        
     </head>
     <body>
         <div id='app'>
-            <div class="header" >Header</div>
-            <div class="content">
-                <div style="height:640px; width:720px;background:#cc9999;">Content</div>
+            <div id='reactApp'>
+                <div class="header" >
+                    <div class="nav-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="content">
+                    <div style="height:640px; width:720px;background:#cc9999;">Content</div>
+                </div>
+                <div class="footer">
+                    <a href="http://www.evil-corp-usa.com/"><img class="custLogo" src="./src/images/ecorp-logo.png" alt="customer logo"></a>
+                    <div><span class="pwrdby">Powered By: </span><a href="//www.qognify.com/"><img class="qglogo" src="./src/images/qognify-logo.png" alt="Qognify"></a></div>
+                </div>
             </div>
-            <div class="footer">Footer</div>
         </div>
         <style>
-            html, body {
+            body, html {
+                width: 100%;
                 height: 100%;
                 margin: 0;
+                padding: 0;
             }
-            #app {
+            #app{
+                position: absolute;
+                top: 0; bottom: 0; left: 0; right:0;
+                overflow: hidden;
+            }
+            #reactApp {
                 height: 100%;
                 display: flex;
                 flex-direction: column;
             }
             .header {
-                background: silver;
-                height:4em;
+                background: #000;
+                height:3em;
+                color: #FFF;
+            }
+            .header .nav-icon {
+                width: 2em;
+                height: 2em;
+                position: relative;
+                margin: 0.75em;
+                cursor: pointer;
+            }
+
+            .header .nav-icon span{
+                display: block;
+                height: 0.25em;
+                width: 100%;
+                background-color: #FFF;
+                border-radius: 0.25em;
+                margin-bottom: 0.37em;
             }
             .footer{
-                background: silver;
+                background: #000;
+                color: #FFF;
                 height:2em;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .footer .custLogo {
+                height:2em;
+            }
+            .footer .qglogo {
+                height:1.2em;
+                vertical-align:middle;
+                margin-right:0.3em;
             }
             .content {
                 flex: 1;
